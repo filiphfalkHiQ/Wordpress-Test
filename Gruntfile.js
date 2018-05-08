@@ -1,9 +1,6 @@
 module.exports = function ( grunt ) {
 	'use strict';
 
-	require( 'time-grunt' )( grunt );
-	require( 'load-grunt-tasks' )( grunt );
-
 	var paths = {
 		app : 'wp-content/themes/twentyseventeen',
 		dist : 'dist/guldbaggen-theme'
