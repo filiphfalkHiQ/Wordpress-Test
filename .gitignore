@@ -2,6 +2,7 @@
 .htaccess
 sitemap.xml
 sitemap.xml.gz
+node_modules/
 wp-config.php
 wp-content/advanced-cache.php
 wp-content/backup-db/
@@ -16,3 +17,5 @@ wp-content/plugins/hello.php
 /readme.html
 /license.txt
 
+
+*.css

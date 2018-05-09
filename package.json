@@ -2,7 +2,18 @@
   "name": "wordpresstest",
   "version": "1.0.0",
   "description": "WordpressTest",
-  "main": "Gruntfile.js",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-util": "latest",
+    "gulp-sass": "latest",
+    "gulp-less": "latest",
+    "gulp-coffee": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +26,5 @@
   "bugs": {
     "url": "https://github.com/filiphfalkHiQ/Wordpress-Test/issues"
   },
-  "homepage": "https://github.com/filiphfalkHiQ/Wordpress-Test#readme",
-  "devDependencies": {
-    "grunt": "^1.0.2"
-  }
+  "homepage": "https://github.com/filiphfalkHiQ/Wordpress-Test#readme"
 }
